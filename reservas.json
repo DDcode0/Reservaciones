@@ -1,0 +1,14 @@
+[
+    {
+        "id": 2,
+        "nombre": "Darwin Castro",
+        "fecha": "2025-03-03",
+        "habitacion": "10"
+    },
+    {
+        "id": 2,
+        "nombre": "Jonh Titor ",
+        "fecha": "2025-04-02",
+        "habitacion": "18"
+    }
+]

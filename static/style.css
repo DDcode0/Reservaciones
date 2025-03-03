@@ -1,0 +1,100 @@
+/*  Paleta de colores oscuros */
+body {
+    background-color: #0d0d0d; /* Negro profundo */
+    color: #e0e0e0; /* Gris claro */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px; /* Espaciado interno */
+    margin: 10px; /* Espaciado externo */
+}
+
+/* 📏 Tamaño moderado del logo */
+.logo {
+    width: 100px;  /* Ajuste moderado */
+    height: auto;
+    max-width: 150px; /* Límite máximo */
+}
+
+/*  Contenedor principal */
+.container {
+    max-width: 95%;
+    margin: auto;
+    padding: 20px;
+    background: #1c1c1c; /* Gris oscuro */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+/*  Formulario con nuevo color */
+form {
+    background: #1a1a1a; /* Gris muy oscuro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+/*  Inputs, selects y textarea con fondo oscuro */
+input, select, textarea {
+    background: #262626 !important; /* Gris oscuro */
+    border: 1px solid #555 !important; /* Borde gris más claro */
+    color: #ffffff !important; /* Texto blanco */
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+/*  Placeholder más visible */
+input::placeholder, textarea::placeholder {
+    color: #b0b0b0 !important; /* Gris claro */
+}
+
+/*  Efecto al pasar el cursor y enfocar los inputs */
+input:focus, select:focus, textarea:focus {
+    background: #333 !important; /* Gris más claro */
+    border-color: #888 !important; /* Borde gris claro */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2) !important;
+    outline: none !important;
+}
+
+/*  Tabla con nuevo fondo */
+.table {
+    background: #1a1a1a; /* Negro suave */
+    color: white;
+}
+
+.table thead {
+    background: #333333; /* Gris medio */
+}
+
+.table tbody tr {
+    background: #2a2a2a; /* Fondo gris oscuro */
+}
+
+.table tbody tr:nth-child(even) {
+    background: #3a3a3a; /* Gris un poco más claro */
+}
+
+.nombre-chilero {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #e4e0da; /* Naranja vibrante */
+    text-shadow: 2px 2px 5px rgba(255, 152, 0, 0.5);
+}
+
+/* 📱 Ajustar el nombre en móviles */
+@media (max-width: 768px) {
+    .nombre-chilero {
+        font-size: 18px;
+    }
+}
+
