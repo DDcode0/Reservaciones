@@ -71,5 +71,7 @@ def editar_reserva(id):
     return redirect(url_for("home"))
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=10000, debug=True)
+    PORT = int(os.getenv("PORT", 10000))  # Usa el puerto de Render si está disponible
+    app.run(host='0.0.0.0', port=PORT, debug=True)
+
 
